@@ -1,0 +1,29 @@
+
+
+nav ul  {
+    display: flex;
+    justify-content: center;
+
+   
+}
+li{
+    list-style: none;
+    color: brown;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    width: 1320px;
+
+    height: auto;
+    text-align: center;
+
+
+}
+p{
+    text-align: center;
+}
