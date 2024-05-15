@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
+import Blog from '../pages/Blog'
 function Header() {
   return (
     <div  className='header'>
@@ -12,9 +13,10 @@ function Header() {
                 <li>
                    <Link to={'/'}>Home</Link>   </li>
                    <li>
-                   <Link to={'/About-Us'}>About-US</Link></li>
+                   <Link to={'About-Us'}>About-US</Link></li>
                    
-                   <li><Link to={'/Course'}>Course</Link></li>
+                   <li><Link to={'Course'}>Course</Link></li>
+                   <li><Link to={'Blogs'}> Blogs</Link></li>
              
                 
                 

@@ -27,3 +27,19 @@ li{
 p{
     text-align: center;
 }
+
+.container{
+    width: 1320px;
+    display: flex;
+    margin: auto;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+.blog-items{
+    flex-basis: 23%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid red;
+    box-shadow: 0px 0px 9px 5px;
+   
+}

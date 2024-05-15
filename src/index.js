@@ -1,3 +1,6 @@
+import Blog from "./pages/Blog";
+import { blogs } from "./pages/Blogs";
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -6,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import Course from  './pages/Course'
 import About from './pages/About'
+import Blogdetails from "./pages/Blogdetails";
 
 const allRoutes = createBrowserRouter([
   {
@@ -19,6 +23,14 @@ const allRoutes = createBrowserRouter([
   {
     path : 'Course',
     element:<Course/>
+  },
+  {
+    path:'Blogs',
+    element:<Blog/>
+  },
+  {
+    path: 'blog/:id',
+    element: <Blogdetails/>
   }
 
  
