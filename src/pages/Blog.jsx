@@ -9,9 +9,7 @@ function Blog() {
             <div className='blog-items' key={i}>
                 <h3> {v.title}</h3>
                 <p>
-                    {
-                        v.body
-                    }
+                    { v.body }
                 </p>
                 <button><Link to={`/blog/${v.id}`}> rEAD MORE </Link></button>
             </div>

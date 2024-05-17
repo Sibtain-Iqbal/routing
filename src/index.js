@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Course from  './pages/Course'
 import About from './pages/About'
 import Blogdetails from "./pages/Blogdetails";
+import Error404 from "./pages/Error404";
 
 const allRoutes = createBrowserRouter([
   {
@@ -31,8 +32,11 @@ const allRoutes = createBrowserRouter([
   {
     path: 'blog/:id',
     element: <Blogdetails/>
+  },
+  {
+    path:'*',
+    element:<Error404/>
   }
-
  
 ])
 
